@@ -1,0 +1,29 @@
+.mainBox {
+	// border: solid red 1px;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 25px auto;
+	justify-content: center;
+	// height: 500px;
+	width: 90vw;
+}
+
+.card {
+	// border: solid Black 3px;
+	display: flex;
+	height: 400px;
+	width: 40vw;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 3vw;
+	margin: 10px;
+	img {
+	height: 300px;
+	}
+}
+
+hr {
+	width: 30vw;
+}
+
